@@ -1,0 +1,209 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* /////Header/////////////*/
+header{
+    position: relative;
+
+
+} 
+
+
+
+
+/*/////en-tête/////////////*/
+#en-tete{
+    display: flex;
+    justify-content: space-around;
+    
+
+
+}
+
+.en_tete{
+    text-align: center;
+    width: 30em;
+    height: 15em;
+    
+}
+/*////Animation-logo////////////*/
+
+
+#bg-svg{
+    align-self: center;
+
+    position: relative;
+    top: -2em;
+    
+    
+    width: 26em;
+    z-index : 1;
+    
+    background:url(../images/image/Nav/bg-svg.png) no-repeat;
+    background-size: 13em;
+    background-position: center;
+    
+}
+
+#animated-svg{
+    
+    position: relative;
+    right: 5px;
+    top : -3px;
+    
+
+}
+
+
+
+/*///////////NavBar/*/
+nav{
+    position: relative;
+    top:-9em;
+}
+
+/*/////Connextion-Reservation///////*/
+
+#con-res{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 1em;
+    
+}
+
+.con_res{
+    text-align: center;
+    width: 35em;
+    
+}
+
+/*////Bouton connexion///////*/
+#connexion {
+	box-shadow: 0px 10px 14px -7px #000000;
+	background:#b30000;
+	
+	border-radius:13px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:5px 15px;
+	text-decoration:none;
+	text-shadow:2px 6px 8px rgba(0, 0, 0, 0.548);
+}
+#connexion :hover {
+	background:linear-gradient(to bottom, #9e0000 5%, #b30000 100%);
+	background-color:#9e0000;
+}
+#connexion :active {
+	position:relative;
+	top:1px;
+}
+
+
+
+     
+/*////Bouton reservation///////*/
+
+#res {
+	box-shadow: 0px 10px 14px -7px #000000;
+	background:linear-gradient(to bottom, #919191 5%, #999999 100%);
+	
+	border-radius:13px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:5px 15px;
+	text-decoration:none;
+	text-shadow:2px 6px 8px rgba(0, 0, 0, 0.548);
+}
+#res :hover {
+	background:linear-gradient(to bottom, #9e0000 5%, #b30000 100%);
+	background-color:#9e0000;
+}
+#res :active {
+	position:relative;
+	top:1px;
+}
+     
+
+/*////Image////*/
+#image
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img
+{
+
+    height: 30em;
+    width:100%;
+}
+
+/*/////////////Navigation/////*/
+#liste{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+     text-align: center;
+    top :-7em;
+    
+}
+
+
+.navigation{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: rgb(255, 255, 255);
+    
+}
+
+/*/////Images Nav Bar////*/
+
+#img_reservation{
+    width: 10em;
+    height: 10em;
+    padding-top: 1em;
+}
+
+#img_evenement{
+    width: 10em;
+    height: 10em;
+    padding-top: 1em;
+}
+
+#img_attraction{
+    width: 12em;
+    height: 11em;
+    
+}
+
+#img_cours{
+    width: 11em;
+    height: 9em;
+    padding-top: 1em;
+    padding-bottom: 1em;  
+    
+}
+
+#img_plan{
+    width: 11em;
+    height: 9em;
+    padding-top: 1em;
+    padding-bottom: 1em;  
+    
+}
